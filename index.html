@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+ 
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+
+  <!-- custom css link -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar-1.jpeg" alt="M.Abdullah" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="M.Abdullah">M.Abdullah</h1>
+          <p class="title">Data Analyst</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:abdullahmumtaz577@gmail.com" class="contact-link">abdullahmumtaz577@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+923066015656" class="contact-link">+92306-6015656</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2004-01-02">Jan 02, 2004</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Mianwali, Pakistan</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+  <li class="social-item">
+    <a href="https://www.linkedin.com/in/muhammad-abdullah-b1a320251/" target="_blank" class="social-link">
+      <ion-icon name="logo-linkedin"></ion-icon>
+    </a>
+  </li>
+
+  <li class="social-item">
+    <a href="https://www.facebook.com/share/1Ho9N9XHYp/" target="_blank" class="social-link">
+      <ion-icon name="logo-facebook"></ion-icon>
+    </a>
+  </li>
+
+  <li class="social-item">
+    <a href="https://x.com/Muhamma89918694?t=Nq8ErS4EV3krWZG9Rhhajw&s=09" target="_blank" class="social-link">
+      <ion-icon name="logo-twitter"></ion-icon>
+    </a>
+  </li>
+</ul>
+
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+        </ul>
+      </nav>
+
+      <!-- ABOUT PAGE -->
+      <article class="about active" data-page="about">
+        <header><h2 class="h2 article-title">About me</h2></header>
+        <section class="about-text">
+          <p>
+            I’m Muhammad Abdullah — a results-oriented Data Analyst with a background in
+            Mechanical Engineering and a passion for turning complex data into clear, actionable insights.
+            Currently in the final year of my degree at UET Taxila, I specialize in using tools like Power BI, Excel, 
+            and SQL to help businesses make smarter, faster decisions.
+          </p>
+          <p>
+            I bring a unique blend of technical precision and business understanding, enabling me to not just analyze
+            numbers — but to tell the story behind them. My focus is always on helping clients identify trends, reduce 
+            inefficiencies, and drive growth through data.
+          </p>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">What I'm Doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/2.svg" alt="KPI Icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Dynamic KPI Dashboards</h4>
+                <p class="service-item-text">Build dynamic Power BI dashboards for KPI tracking</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="Excel Icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Cleaning & Analysis</h4>
+                <p class="service-item-text">Clean and analyze data using Excel and SQL</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="Case Study Icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Business Case Solving</h4>
+                <p class="service-item-text">Solve case studies with a business-first mindset</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+
+
+
+
+
+
+
+      <!-- RESUME PAGE -->
+      <article class="resume" data-page="resume">
+  <header>
+    <h2 class="h2 article-title">Resume</h2>
+  </header>
+
+  <!-- EDUCATION -->
+  <section class="timeline">
+    <h3 class="h3">Education</h3>
+    <ul class="timeline-list">
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Cadet College Chakwal</h4>
+        <span>2020 — 2022</span>
+        <p class="timeline-text">FSc. Pre-Engineering</p>
+      </li>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">UET, Taxila</h4>
+        <span>2022 — 2026</span>
+        <p class="timeline-text">BSc Mechanical Engineering</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="timeline">
+    <h3 class="h3">Professional Experience</h3>
+    <ul class="timeline-list">
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Junior Intern</h4>
+        <span>Agritech Limited | June–July 2024</span>
+        <p class="timeline-text">
+          • Assisted in optimizing mechanical processes in fertilizer production, contributing to increased efficiency and reduced downtime.<br>
+          • Collaborated with the engineering team to maintain and troubleshoot plant equipment, ensuring consistent operation and safety compliance.
+        </p>
+      </li>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Executive Member</h4>
+        <span>IMechE UET Taxila Chapter | Present</span>
+        <p class="timeline-text">
+          • Executed strategic PR and liaison initiatives as an executive member of the IMechE team.<br>
+          • Authored promotional content to drive awareness and engagement.
+        </p>
+      </li>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Executive Member</h4>
+        <span>ASME UET Taxila | Present</span>
+        <p class="timeline-text">
+          • Managed budget and financial records for ASME, ensuring efficient resource use.<br>
+          • Handled documentation, supporting clear financial reporting and operations.
+        </p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="timeline">
+    <h3 class="h3">Skills</h3>
+    <ul class="timeline-list">
+      <li class="timeline-item">
+        <p class="timeline-text">• Exceptional communication and interpersonal skills</p>
+        <p class="timeline-text">• Ability to work independently and as part of a team</p>
+        <p class="timeline-text">• Experience in managing budgets and financial documents</p>
+        <p class="timeline-text">• Video editing, color grading, CapCut experience and photography</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="timeline">
+    <h3 class="h3">Certifications</h3>
+    <ul class="timeline-list">
+      <li class="timeline-item">
+        <p class="timeline-text">• Certified in AutoCAD (2D/3D design, drafting, and modeling)</p>
+        <p class="timeline-text">• Certified as a Data Analyst (Excel, SQL, Python, data interpretation, statistical analysis)</p>
+      </li>
+    </ul>
+  </section>
+</article>
+
+
+
+
+
+
+
+
+
+
+      <!-- PORTFOLIO PAGE -->
+      <article class="portfolio" data-page="portfolio">
+  <header><h2 class="h2 article-title">Portfolio</h2></header>
+
+  <section class="projects">
+
+    <h3 class="h3">Power BI Dashboards</h3>
+    <br>
+    <ul class="portfolio-grid">
+
+  <li class="portfolio-item">
+  <div class="portfolio-card">
+
+    <h3 class="portfolio-title">𝐄-𝐜𝐨𝐦𝐦𝐞𝐫𝐜𝐞 𝐂𝐚𝐭𝐞𝐠𝐨𝐫𝐲 𝐃𝐚𝐬𝐡𝐛𝐨𝐚𝐫𝐝𝐬</h3>
+    <p class="portfolio-subtitle">Sales & Profit Insights</p>
+
+    <a href="./assets/images/project1.jpeg" data-fancybox="ecommerce" data-caption="Dashboard 1">
+  <img src="./assets/images/project1.jpeg" width="300" />
+</a>
+
+    <!-- Full Description -->
+    <p class="portfolio-description">
+      Developed a suite of four interactive Power BI dashboards to analyze e-commerce sales and revenue across product categories.
+      Combined data modeling, SQL, and dynamic visuals to deliver clear insights into performance trends, customer behavior, and seasonal demand — enabling smarter, category-specific decision-making.
+    </p>
+
+    <a href="./assets/images/1.jpeg" data-fancybox="ecommerce" data-caption="Dashboard 2"></a>
+<a href="./assets/images/2.jpeg" data-fancybox="ecommerce" data-caption="Dashboard 3"></a>
+<a href="./assets/images/3.jpeg" data-fancybox="ecommerce" data-caption="Dashboard 4"></a>
+
+  </div>
+</li>
+
+  
+
+
+
+  <li class="portfolio-item">
+    <a href="#" target="_blank" class="portfolio-card">
+      <h3 class="portfolio-title">𝐒𝐚𝐥𝐞𝐬 𝐏𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞 𝐃𝐚𝐬𝐡𝐛𝐨𝐚𝐫𝐝</h3>
+      <p class="portfolio-subtitle">Power BI & DAX Driven</p>
+      <a href="./assets/images/project2.jpeg" data-fancybox="sales" data-caption="Dashboard 1">
+  <img src="./assets/images/project2.jpeg" width="300" /></a>
+      
+      <p class="portfolio-description">
+        Designed an end-to-end Power BI dashboard suite covering sales overview, order-level insights, and quantity timelines.
+        Integrated and cleaned sales data using Power Query, applied DAX for revenue and trend metrics, and built interactive visuals for category performance, order analysis, and payment method breakdowns — enabling real-time, data-driven decision-making.
+      </p>
+      <a href="./assets/images/4.jpeg" data-fancybox="sales" data-caption="Dashboard 2"></a>
+<a href="./assets/images/5.jpeg" data-fancybox="sales" data-caption="Dashboard 3"></a>
+    </a>
+  </li>
+
+  <li class="portfolio-item">
+    <a href="#" target="_blank" class="portfolio-card">
+      <h3 class="portfolio-title">𝐈𝐧𝐭𝐞𝐫𝐚𝐜𝐭𝐢𝐯𝐞 𝐁𝐢𝐤𝐞 𝐒𝐚𝐥𝐞𝐬 𝐃𝐚𝐬𝐡𝐛𝐨𝐚𝐫𝐝</h3>
+      <p class="portfolio-subtitle">Built in Excel</p>
+      <a href="./assets/images/project3.jpeg" data-fancybox="interactive" data-caption="Dashboard 1">
+  <img src="./assets/images/project3.jpeg" width="300" /></a>
+      <p class="portfolio-description">
+        Designed a dynamic sales dashboard in Excel by cleaning raw data and using pivot tables, charts, and slicers to uncover trends across regions and customer segments.
+      </p>
+      <a href="./assets/images/6.jpeg" data-fancybox="interactive" data-caption="Dashboard "></a>
+
+    </a>
+  </li>
+
+</ul>
+
+
+  </section>
+</article>
+
+
+      <!-- CONTACT PAGE -->
+      <article class="contact" data-page="contact">
+
+  <header>
+    <h2 class="h2 article-title">Contact</h2>
+  </header>
+
+  <section class="contact-text">
+    <p>
+      Ready to turn your data into smarter decisions?<br>
+      Let’s build something impactful together.
+    </p>
+  </section>
+
+  <ul class="contact-info-list">
+
+    <li class="contact-info-item">
+      <div class="icon-box">
+        <ion-icon name="mail-outline"></ion-icon>
+      </div>
+      <div class="info-content">
+        <a href="mailto:abdullahmumtaz577@gmail.com" class="contact-link">abdullahmumtaz577@gmail.com</a>
+      </div>
+    </li>
+
+    <li class="contact-info-item">
+      <div class="icon-box">
+        <ion-icon name="globe-outline"></ion-icon>
+      </div>
+      <div class="info-content">
+        <a href="https://www.linkedin.com/in/muhammad-abdullah-b1a320251/" class="contact-link" target="_blank">LinkedIn / Muhammad Abdullah</a>
+      </div>
+    </li>
+
+    <li class="contact-info-item">
+      <div class="icon-box">
+        <ion-icon name="location-outline"></ion-icon>
+      </div>
+      <div class="info-content">
+        <span>Available for remote projects</span>
+      </div>
+    </li>
+
+  </ul>
+
+</article>
+
+    </div>
+  </main>
+
+  <!-- custom js link -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+
+</body>
+</html>
